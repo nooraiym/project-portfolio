@@ -21,7 +21,7 @@ export const Main = () => {
 
 const StyledMain = styled.div`
     min-height: 100vh;
-    background-color: #edd5d5;
+    background-color: #fff4f4;
 `
 const MainTitle = styled.h1`
     font-family: 'Courier New', Courier, monospace;
