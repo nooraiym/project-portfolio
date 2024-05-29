@@ -6,7 +6,13 @@ export const GlobalStyle = createGlobalStyle`
         margin: 0;
         padding: 0;
         box-sizing: border-box;
+        transition-duration: 2s;
     }
+
+    html {
+    scroll-behavior: smooth;
+}
+
 
     body {
         margin: 0;

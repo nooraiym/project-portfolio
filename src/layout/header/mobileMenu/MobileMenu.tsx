@@ -7,11 +7,11 @@ import { css } from 'styled-components';
 export const MobileMenu = (props: {menuItems: Array<string>}) => {
     return (
         <StyledMobileMenu>
-            <BurgerButton isOpen={false}>
+            <BurgerButton isopen={false}>
                 <span></span>
             </BurgerButton>
 
-            <MobileMenuPopup isOpen={false}>
+            <MobileMenuPopup isopen={false}>
                 <ul>
                     {props.menuItems.map((item, index)=>{
                         return <ListItem key={index}>
@@ -37,7 +37,7 @@ const StyledMobileMenu = styled.nav`
     }
 `
 
-const BurgerButton = styled.button<{isOpen: boolean}>`
+const BurgerButton = styled.button<{isopen: boolean}>`
     width: 200px;
     height: 200px;
     
@@ -56,7 +56,7 @@ const BurgerButton = styled.button<{isOpen: boolean}>`
         left: 40px;
         bottom: 50px;
 
-        ${props => props.isOpen && css<{isOpen: boolean}>`
+        ${props => props.isopen && css<{isopen: boolean}>`
             background-color: #1F1F20E5;
         `}
 
@@ -70,7 +70,7 @@ const BurgerButton = styled.button<{isOpen: boolean}>`
             position: absolute;
             transform: translateY(-10px);
 
-            ${props => props.isOpen && css<{isOpen: boolean}>`
+            ${props => props.isopen && css<{isopen: boolean}>`
                 transform: rotate(-45deg) translateY(0);
             `}
         }
@@ -85,7 +85,7 @@ const BurgerButton = styled.button<{isOpen: boolean}>`
             position: absolute;
             transform: translateY(10px);
 
-            ${props => props.isOpen && css<{isOpen: boolean}>`
+            ${props => props.isopen && css<{isopen: boolean}>`
                 transform: rotate(45deg) translateY(0);
                 width: 36px;
             `}
@@ -93,7 +93,7 @@ const BurgerButton = styled.button<{isOpen: boolean}>`
     }
 `
 
-const MobileMenuPopup = styled.div<{isOpen: boolean}>`
+const MobileMenuPopup = styled.div<{isopen: boolean}>`
     background-color: #1F1F20E5;
 
     display: none;
@@ -103,7 +103,7 @@ const MobileMenuPopup = styled.div<{isOpen: boolean}>`
     bottom: 0;
     left: 0;
 
-    ${props => props.isOpen && css<{isOpen: boolean}>`
+    ${props => props.isopen && css<{isopen: boolean}>`
         display: flex;
         justify-content: center;
         align-items: center;

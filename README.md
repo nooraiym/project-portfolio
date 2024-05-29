@@ -1,46 +1,63 @@
-# Getting Started with Create React App
+# Social Network Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## About the Project
 
-## Available Scripts
+This project involves the development of a static portfolio website designed to showcase personal or professional work in a visually appealing and organized manner. The main objective is to create a user-friendly platform that effectively displays skills, projects, and experiences to potential employers or clients.
 
-In the project directory, you can run:
+## Key Features
 
-### `yarn start`
+- **Visual Design**: A modern, clean design that aligns with Solana's branding and aesthetic values, emphasizing speed, innovation, and security. The design will be sleek and minimalistic, using color schemes and typography that reflect the technological sophistication of the Solana blockchain.
+- **Structured Layout**: The portfolio will be organized into sections such as About Me, Works, Skills, and Contact Information. Each section will be easily navigable, allowing users to find information quickly and efficiently.
+- **Responsive Design**: While the portfolio lacks interactivity, it will be fully responsive, ensuring that the content is accessible and aesthetically pleasing on all devices, from desktops to smartphones.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Getting Started
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Prerequisites
 
-### `yarn test`
+- Node.js installed on your local machine.
+- npm or yarn as your package manager.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Installation
 
-### `yarn build`
+1. **Clone the repository:**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   ```bash
+   git clone https://github.com/nooraiym/project-portfolio.git
+   cd social-network
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. **Install dependencies:**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   ```bash
+   npm install
+   ```
 
-### `yarn eject`
+   or
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+   ```bash
+   yarn install
+   ```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. **Start the development server:**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+   ```bash
+   npm start
+   ```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+   or
 
-## Learn More
+   ```bash
+   yarn start
+   ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+   This runs the app in development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Usage
+
+After starting the app, you can create an account to start using the social network. Once logged in, you can connect with other users, create posts, and explore the network.
+
+## Contact
+
+Nuraiym Nurbulatova - [linkedin](https://www.linkedin.com/in/nurayim-nurbulatova/)
+
+Project Link: [https://github.com/nooraiym/project-portfolio](https://github.com/nooraiym/project-portfolio)

@@ -12,7 +12,7 @@ const worksItems = ["All", "Landing Page", "React", "Spa"]
 
 export const Works = () => {
     return (
-        <StyledWorks>
+        <StyledWorks id='works'>
             <Container>
                 <SectionTitle>My works</SectionTitle>
                 <TabMenu menuItems={worksItems}/>

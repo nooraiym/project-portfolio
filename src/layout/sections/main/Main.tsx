@@ -8,7 +8,7 @@ import { font } from '../../../styles/Common';
 
 export const Main = () => {
     return (
-        <StyledMain>
+        <StyledMain id='home'>
             <Container>
                 <FlexWrapper align={'center'} justify={'space-around'} wrap={'wrap'}>
                     <TextWrapper>
