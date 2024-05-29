@@ -1,4 +1,4 @@
-# Social Network Project
+# Portfolio Project
 
 ## About the Project
 
